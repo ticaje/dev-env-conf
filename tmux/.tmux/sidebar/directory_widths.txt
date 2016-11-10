@@ -1,0 +1,8 @@
+/home/ticaje	40
+/home/ticaje	40
+/home/ticaje/Work/Projects/a9magentomde	213
+/home/ticaje/Work/Projects/a9magentomde	40
+/home/ticaje/Work/Projects/a9magentomde	40
+/home/ticaje	40
+/home/ticaje/Work/Projects/a9magentomde/app/code/community/Alfa/Defensa/Model	40
+/home/ticaje/Work/Projects/a9magentomde/app/code/community/Alfa/Cartografia/controllers	40
