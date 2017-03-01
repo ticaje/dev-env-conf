@@ -43,7 +43,7 @@ filetype plugin on
 filetype indent on
 
 " Setting up indentation
-set expandtab ts=4 sw=4 ai
+set expandtab ts=2 sw=2 ai
 
 set guifont=DejaVu\ Sans\ Mono\ 12
 set antialias
@@ -64,7 +64,21 @@ nmap <leader>jA mA:Ack "<C-r>=expand("<cWORD>")<cr>"
 
 let g:ctrlp_map = '<leader>c'
 
-set autochdir
+"set autochdir
 
 " check PHP syntax
 map :aa :!php -l %<CR>
+
+" Code Autocompletion
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+let g:Powerline_symbols = 'fancy'
+
+" tagbar
+nmap <leader>b :TagbarToggle<CR>
+
+" NERDTree
+nmap <leader>t :NERDTreeToggle<CR>
+nmap <leader>n :NERDTreeFind<CR>
+
+" CtrlP
+nmap <C-p> :CtrlP<CR>
